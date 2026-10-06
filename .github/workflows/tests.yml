@@ -1,0 +1,11 @@
+name: Tests
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest #windows-latest macos-latest 
+
+    steps:
+      - run: echo "Hello world"
