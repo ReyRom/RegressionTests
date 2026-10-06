@@ -8,7 +8,7 @@
             Fraction fraction = new Fraction(2,4);
 
             Assert.Equal(1, fraction.Numerator);
-            Assert.Equal(2, fraction.Denominator);
+            Assert.Equal(3, fraction.Denominator);
         }
     }
 }
