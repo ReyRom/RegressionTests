@@ -27,7 +27,7 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run Tests
-        run: dotnet test --no-build --logger "trx:LogFileName=test_results.trx" --results-directory ./test_results
+        run: dotnet test --no-build --logger "trx;LogFileName=test_results.trx" --results-directory ./test_results
 
       - name: Generate Report
         uses: dorny/test-reporter@v3
