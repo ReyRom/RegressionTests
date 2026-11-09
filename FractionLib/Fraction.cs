@@ -1,5 +1,8 @@
 ﻿namespace FractionLib
 {
+    /// <summary>
+    /// Обыкновенная дробь
+    /// </summary>
   public readonly struct Fraction : IEquatable<Fraction>, IComparable<Fraction>
   {
     public int Numerator { get; }
